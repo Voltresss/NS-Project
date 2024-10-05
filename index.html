@@ -1,27 +1,32 @@
-<html lang="en">
+<html lang="en"></html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='stylesheet' href="index.css">       <!-- sri -->
+    <link rel='stylesheet' href="login.css">      
+    <link rel='stylesheet' href="login.css">       
     <title>google login</title>
-
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 </head>
-<body>
-    <img src="google.png" alt="" class="google">
+<body background="pexels-padrinan-255379 (1).jpg">
+    
     <div>
-        <p class="heading">One account,All of Google.</p>
-        <p class="subhead">Sign in to continue to Gmail</p>
+        <center><p class="heading">One account,All of Google...</p></center>
+        <center><p class="subhead">Sign in to continue to Gmail...</p></center>
     </div>
+    <img src="google.png" alt="" class="google">
     <div class="container">
         <div class="login">
-            <form ><input type="text" name="Email" placeholder="&nbsp;&nbsp; Email" class="inputs" ></form>     <!-- changed id into class cuz idk how to aaplly css to id-->
+            <form ><input type="text" name="Email" placeholder="&nbsp;&nbsp; Email" class="inputs" ></form> 
+            <box-icon type='solid' name='user' class="i"></box-icon>
             <form ><input type="text" name="Password"  placeholder="&nbsp;&nbsp; Password" class="inputs"></form><br>
-            <button id="login" onclick="login()">Sign in</button>
+            <box-icon type='solid' name='lock-alt' class="l"></box-icon>
         </div>
+        <div class="remember-forget">
+            <label ><input type="checkbox">Remember me</label>
+            <a href="#">forget password?</a> <br>
+        </div>
+        <div class="login"><button type="submit">Sign in</button></div>
     </div>
-    <script src ='login.js'></script> <!-- sri -->
-
+    <script src ='login.js'></script> 
 </body>
 </html>
-
-
