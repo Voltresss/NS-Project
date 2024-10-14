@@ -1,34 +1,32 @@
-<html lang="en"></html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='stylesheet' href="login.css">      
-    <link rel='stylesheet' href="login.css">       
-    <title>google login</title>
-    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="animation.css">
 </head>
-<body background="pexels-padrinan-255379 (1).jpg">
-    
-    <div>
-        <center><p class="heading">One account,All of Google...</p></center>
-        <center><p class="subhead">Sign in to continue to Gmail...</p></center>
-    </div>
-    <img src="google.png" alt="" class="google">
+<body background="pexels-padrinan-255379 (1).jpg"> 
     <div class="container">
-        <div class="log"><h1>Login</h1></div>
         <div class="login">
-
-            <form ><input type="text" name="Email" placeholder="&nbsp;&nbsp; Email" class="inputs" ></form> 
-            <box-icon type='solid' name='user' class="i"></box-icon>
-            <form ><input type="text" name="Password"  placeholder="&nbsp;&nbsp; Password" class="inputs"></form><br>
-            <box-icon type='solid' name='lock-alt' class="l"></box-icon>
+            <div class="signin">
+                <form action="">
+                    <h2>Login</h2>
+                    <div >
+                        <input type="text" placeholder="USERNAME" required class="input-group">
+                    </div>
+                    <div>
+                        <input type="password" placeholder="PASSWORD" required class="input-group"><br>
+                        <div class="rememberme">
+                            <label for=""><input type="checkbox">Remember me</label>
+                        </div>
+                        <div class="login1">
+                            <button>login</button>
+                        </div>
+                        dont have an account?<a href="#">sign in</a>
+                    </div>
+                </form>
+            </div>
         </div>
-        <div class="remember-forget">
-            <label ><input type="checkbox">Remember me</label>
-            <a href="#">forget password?</a> <br>
-        </div>
-        <div class="Sign"><button type="submit">Sign in</button></div>
     </div>
-    <script src ='login.js'></script> 
 </body>
 </html>
