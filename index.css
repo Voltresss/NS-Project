@@ -1,95 +1,57 @@
- *
-    {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        position: relative;
-        font-family: sans-serif;
-        outline: none;
-    }
-    .login
-    {
-        margin-left: 10%;
-        margin-top: 5%;
-        border: none;
-    }
-    button
-    {
-        margin-left: 75px;
-        margin-top: 8px;
-        border-radius: 30px;
-        padding: 4px;
-        background-color: #ecf0f3;
-        box-shadow: inset -5px -5px 12px #ffff,inset 5px 5px 12px rgba(0,0,0,.16);
-        border: none;
-        font-size: 20px;
-    }
-    input
-    {
-        background-color: #ecf0f3;
-        font-size: 20px;
-        margin-top: 8px;
-        box-shadow: inset -5px -5px 12px #ffff,inset 5px 5px 12px rgba(0,0,0,.16);
-        border: none;
-        border-radius: 30px;
-        padding-left: 8px;
-    }
-p
+body
 {
-    font-weight: bolder;
-    font-size: 20px;
-    padding-left: 2%;
-}
-.google 
-{
-    height: 100px;
-    padding-left: 40%;
-    margin-top: 50px;
-}
-.remember-forget
-{
-    margin-left: 8%;
-    color: rgb(184, 18, 26);
-    padding-bottom: 3px;
-}
-.remember-forget input :checked
-{
-    color: rgb(229, 233, 14);
-}
-.container
-{
-    background-color: #ecf0f3;
+    background-color: transparent;
+    display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
+}
+.signin 
+{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 320px;
+    border-radius:17px ;
+    border: 2px solid rgba(93, 231, 197, 0.2);
+    backdrop-filter: blur(30px);
+
+}
+.input-group
+{
+    display: flex;
+    width: 300px;
+    height: 25px;
+    margin-bottom: 7px;
+    border-radius: 10px;
+    background-color: transparent;
+    padding-left: 10px;
+}
+h2{
+    padding-left: 35%;
+    font-size: 39px;
+}
+.rememberme
+{
+    margin: 0;
+}
+label
+{
+    font-size: 16px;
+}
+button
+{
+    width: 300px;
+    height: 30px;
     border-radius: 30px;
-    width:300px;
-    height: 230px;
-    margin: 0 auto;
-    padding-top: 4px;
 }
-.Sign
+input ::placeholder
 {
-    margin-left: 10%;
-    width: 250px;
+    color: green;
 }
-.i 
+input:checked
 {
-    position: absolute;
-    right: 20px;
-    top: 10%;
-    right: 9%;
-    width: 22px;
-}
-.l
-{
-    position: absolute;
-    right: 20px;
-    top:50%;
-    right: 9%;
-    width: 22px;
-}
-.log
-{
-    padding-left: 37%;
+    color: blue;
 }
